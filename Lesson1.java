@@ -1,11 +1,12 @@
 import java.time.LocalTime;
-import java.time.LocalDateTime;
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Lesson1 {
     public static void main(String[] args) {
         // task1();
         // task2();
+        // task3();
     }
 
     public static void task1() {
@@ -45,7 +46,24 @@ public class Lesson1 {
     }
 
     public static void task3() {
+        int[] nums = new int[] {3,2,2,3};
+        int val = 3;
+        int counter = 0;
+        ArrayList<Integer> res = new ArrayList<Integer>();
 
+        for (int i = 0; i < nums.length; i++) {
+            int curr = nums[i];
+            if (curr != val) {
+                res.add(curr);
+            } else {
+                counter += 1;
+            }
+        }
+
+        for (int i = 0; i < counter; i++) {
+            res.add(val);
+        }
+        System.out.println(res);
     }
 
     public static void task4() {
