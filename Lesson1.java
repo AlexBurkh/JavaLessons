@@ -73,26 +73,4 @@ public class Lesson1 {
             System.out.println(res);
         }
     }
-
-    public static void task5() {
-        /*
-        Задано уравнение вида q + w = e, q, w, e >= 0.
-        Некоторые цифры могут быть заменены знаком вопроса, например 2? + ?5 = 69.
-        Требуется восстановить выражение до верного равенства.
-        Предложить хотя бы одно решение или сообщить, что его нет.
-         */
-        String q = "24";
-        String w = "4?";
-        String e = "65";
-
-
-    }
-
-    public static int parseInt(String number) {
-        for (int i = 0; i < number.length(); i++) {
-            char sym = number.charAt(i);
-
-        }
-        return 0;
-    }
 }
